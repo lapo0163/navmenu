@@ -61,13 +61,14 @@ header {
 	float: left;
 	list-style-type: none;
 	width: 20%;
+	
 }
 .menu-h a,
 .menu-h a:link,
 .menu-h a:visited {
 	/* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
-	width: 100%;
+	display: block;
 	padding: 5px 5px 5px 5px;
 }
 .menu-h a:hover,
@@ -78,24 +79,22 @@ header {
 	width: 20%;
 	float: left;
 }
-.menu-v li {
+.menu-v  li {
 	/* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
 	list-style-type: none;
-	display: block;
 	width: 100%;
 }
 .menu-v a,
 .menu-v a:link,
 .menu-v a:visited {
 	/* style the anchors to fill the entire width of the li */
-	width: 100%;
+	display: block;
 }
 .menu-v a:hover,
 .menu-v a:active {
-	border-top: 4px solid #ffffff;
-	border-bottom: 4px solid #ffffff;
+	text-shadow: 1px 1px 2px black, -1px -1px 2px red;
 }
 main {
 	width: 80%;
